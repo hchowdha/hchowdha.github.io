@@ -1,0 +1,60 @@
+body{
+	background-image: url("skull.jpg");
+	
+	/*background-repeat: no-repeat;*/
+}
+.container-fluid{
+	margin: 0px 0px 0px 0px;
+	display: flex;
+}
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 300px;
+	font-weight: 700;
+}
+
+.row{	
+	width: 500%;
+ 	justify-content: center;
+ 	align-self: center;
+ 	padding: 0px 0px 0px 0px;
+ 	margin-top: 200px;
+ 	
+}
+
+P {
+	font-family: 'Montserrat', sans-serif;
+	color: red;
+	font-size: 30px;
+}
+
+.col{
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.row2{	
+	width: 500%;
+ 	justify-content: center;
+ 	align-self: center;
+ 	padding: 0px 0px 0px 0px;
+ 	margin-left: 150px;
+ 	margin-top: 200px;
+ 	margin-bottom: 300px;
+ 	margin-right: 150px;
+}
+
+.btn-primary{
+	transition: transform 1s;
+}
+
+.btn-primary:hover{
+	transform: translate(0px, -20px);
+	transform: scale(1.5);
+	cursor: pointer;
+	text-transform: uppercase;
+	border-width: 3px
+}
